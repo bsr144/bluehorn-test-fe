@@ -1,0 +1,24 @@
+# Dependencies & build
+node_modules
+dist
+
+# Git
+.git
+.gitignore
+
+# Secrets
+.env
+.env.local
+*.local
+
+# Not needed in image
+.env.example
+.dockerignore
+*.md
+
+# Editor / OS
+.vscode
+.DS_Store
+
+# Dockerfile itself (avoid cache invalidation)
+Dockerfile
